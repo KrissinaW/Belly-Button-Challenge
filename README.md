@@ -1,5 +1,8 @@
 # Belly-Button-Challenge
-Module 14 Challenge
+Module 14 
+
+![microbes-sem](https://github.com/KrissinaW/Belly-Button-Challenge/assets/162597320/ee44335b-799d-497b-8858-d981e5f5895a)
+
 
 # Belly Button Biodiversity Dashboard
 
