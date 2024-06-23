@@ -28,15 +28,6 @@ The Belly Button Biodiversity Dashboard is an interactive web application that v
 - Ensuring the charts dynamically update with user input was a key challenge.
 - Future enhancements include adding more advanced filtering options and integrating additional datasets.
 
-## Table of Contents
-
-1. [Project Description](#project-description)
-2. [Table of Contents](#table-of-contents)
-3. [How to Install and Run the Project](#how-to-install-and-run-the-project)
-4. [How to Use the Project](#how-to-use-the-project)
-5. [Credits](#credits)
-6. [License](#license)
-
 ## How to Open the Application
 
 Open your web browser and navigate to http://127.0.0.1:5500/index.html
