@@ -28,10 +28,47 @@ The Belly Button Biodiversity Dashboard is an interactive web application that v
 - Ensuring the charts dynamically update with user input was a key challenge.
 - Future enhancements include adding more advanced filtering options and integrating additional datasets.
 
-## How to Open the Application
+## How to Install and Run the Project
 
-Open your web browser and navigate to http://127.0.0.1:5500/index.html
-[To view the Bellybutton Biodiversity Dashboard click here: ](http://127.0.0.1:5500/index.html)
+To get a local copy up and running, follow these simple steps:
+
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/your-username/belly-button-biodiversity.git
+   
+2. **Navigate to the Project Directory**
+   ```sh
+   cd belly-button-biodiversity
+
+3. **Install Dependencies**
+Ensure you have Python and Flask installed. If not, install them using pip:
+   ```sh
+   pip install Flask
+
+4. **Run the Application**
+   ```sh
+   flask run
+
+The application will start on http://127.0.0.1:5000/.
+
+### How to Use the Project
+- Select a Test Subject ID: Use the dropdown menu to select a test subject ID number.
+  
+- View Demographic Information: The demographic info panel will update to display the selected individual's metadata.
+  
+# Explore the Charts:
+
+- Bar Chart: Shows the top 10 bacterial species found in the selected sample.
+  
+- ubble Chart: Visualizes the bacterial species present in the sample, with bubble size indicating the sample values.
+
+### Screenshots
+
+![Screenshot 2024-06-23 170502](https://github.com/KrissinaW/Belly-Button-Challenge/assets/162597320/121ffa3e-35ca-4d24-90a4-71bbf91be9ff)
+
+![Screenshot 2024-06-23 173051](https://github.com/KrissinaW/Belly-Button-Challenge/assets/162597320/4725d4d0-5526-4afe-be70-305f2692cb94)
+
+![Screenshot 2024-06-23 173105](https://github.com/KrissinaW/Belly-Button-Challenge/assets/162597320/b3e4c9a1-0313-4a4f-9aaa-1c53783bdec7)
 
 ## Credits
 
