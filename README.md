@@ -28,28 +28,6 @@ The Belly Button Biodiversity Dashboard is an interactive web application that v
 - Ensuring the charts dynamically update with user input was a key challenge.
 - Future enhancements include adding more advanced filtering options and integrating additional datasets.
 
-## How to Install and Run the Project
-
-To get a local copy up and running, follow these simple steps:
-
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/KrissinaW/belly-button-biodiversity.git
-   
-2. **Navigate to the Project Directory**
-   ```sh
-   cd belly-button-biodiversity
-
-3. **Install Dependencies**
-Ensure you have Python and Flask installed. If not, install them using pip:
-   ```sh
-   pip install Flask
-
-4. **Run the Application**
-   ```sh
-   flask run
-
-
 ### How to Use the Project
 - Select a Test Subject ID: Use the dropdown menu to select a test subject ID number.
   
