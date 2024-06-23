@@ -4,90 +4,77 @@ Module 14
 ![microbes-sem](https://github.com/KrissinaW/Belly-Button-Challenge/assets/162597320/ee44335b-799d-497b-8858-d981e5f5895a)
 
 
-# Belly Button Biodiversity Dashboard
+Belly Button Biodiversity Dashboard
+Project Description
+The Belly Button Biodiversity Dashboard is an interactive web application that visualizes data on bacterial species found in human navels. This project aims to explore the diversity of bacteria in different individuals, providing insights into the microbiome present in belly buttons.
 
-## Background
+A well-crafted README description is crucial as it showcases your work to other developers and potential employers. A good README explains what your application does, why you used the technologies you used, the challenges you faced, and future features you hope to implement.
 
-This project involves building an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs) were present in more than 70% of people, while the rest were relatively rare.
+Key Features
+Visualizes the top 10 bacterial species found in each sample.
+Interactive Bubble and Bar Charts displaying sample data.
+Dynamic metadata panel showing demographic information.
+Technologies Used
+D3.js: For data manipulation and dynamic content rendering.
+Plotly.js: For creating interactive and responsive charts.
+Bootstrap: For a responsive and modern web layout.
+HTML/CSS: For structuring and styling the web page.
+Challenges and Future Enhancements
+Ensuring the charts dynamically update with user input was a key challenge.
+Future enhancements include adding more advanced filtering options and integrating additional datasets.
+Table of Contents
+Project Description
+Table of Contents
+How to Install and Run the Project
+How to Use the Project
+Credits
+License
+How to Install and Run the Project
+To get a local copy up and running, follow these simple steps:
 
-## Before You Begin
+Clone the Repository
 
-1. Create a new repository for this project called `belly-button-challenge`. Do not add this challenge to an existing repository.
-2. Clone the new repository to your computer.
-3. Inside your local git repository, copy the files from the `StarterCode` folder contained within the Module 14 Challenge zip file, i.e., `index.html`, `samples.json`, and the `static` folder.
-4. **Note:** You will not be required to access the `samples.json` file locally, but it is provided for reference.
-5. Push the above changes to GitHub.
-6. Deploy the new repository to GitHub Pages.
+sh
+Copy code
+git clone https://github.com/your-username/belly-button-biodiversity.git
+Navigate to the Project Directory
 
-## Files
+sh
+Copy code
+cd belly-button-biodiversity
+Install Dependencies
+Ensure you have Python and Flask installed. If not, install them using pip:
 
-Download the following files to help you get started:
+sh
+Copy code
+pip install Flask
+Run the Application
 
-- [Module 14 Challenge files](https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json)
+sh
+Copy code
+flask run
+The application will start on http://127.0.0.1:5000/.
 
-## Instructions
+How to Use the Project
+Select a Test Subject ID: Use the dropdown menu to select a test subject ID number.
+View Demographic Information: The demographic info panel will update to display the selected individual's metadata.
+Explore the Charts:
+Bar Chart: Shows the top 10 bacterial species found in the selected sample.
+Bubble Chart: Visualizes the bacterial species present in the sample, with bubble size indicating the sample values.
+Screenshots
 
-Complete the following steps:
+Caption: Overview of the Belly Button Biodiversity Dashboard.
 
-1. Use the D3 library to read in `samples.json` from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
-2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-    - Use `sample_values` as the values for the bar chart.
-    - Use `otu_ids` as the labels for the bar chart.
-    - Use `otu_labels` as the hovertext for the chart.
+Credits
+This project was developed by Your Name. Special thanks to:
 
-### Bar Chart
+Collaborator's Name - for their valuable input and contributions.
+Another Collaborator - for assistance with the data visualization.
+Additional resources and tutorials referenced:
 
-3. Create a bubble chart that displays each sample.
-    - Use `otu_ids` for the x values.
-    - Use `sample_values` for the y values.
-    - Use `sample_values` for the marker size.
-    - Use `otu_ids` for the marker colors.
-    - Use `otu_labels` for the text values.
-
-### Bubble Chart
-
-4. Display the sample's metadata, i.e., an individual's demographic information.
-    - Loop through each key-value pair from the metadata JSON object and create a text string.
-    - Append an HTML tag with that text to the `#sample-metadata` panel.
-
-### Metadata
-
-5. Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard.
-
-## Deployment
-
-Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo. Ensure that your repository has regular commits and a thorough README.md file.
-
-## Hints
-
-- Use `console.log` inside of your JavaScript code to see what your data looks like at each step.
-- Refer to the [Plotly.js documentation](https://plotly.com/javascript/) when building the plots.
-
-## Requirements
-
-### Bar Chart (30 points)
-
-- Chart initializes without error (10 points)
-- Chart updates when a new sample is selected (5 points)
-- Chart uses Top 10 sample values as values (5 points)
-- Chart uses `otu_ids` as the labels (5 points)
-- Chart uses `otu_labels` as the tooltip (5 points)
-
-### Bubble Charts (40 points)
-
-- Chart initializes without error (10 points)
-- Chart updates when a new sample is selected (5 points)
-- Chart uses `otu_ids` for the x values (5 points)
-- Chart uses `otu_ids` for marker colors (5 points)
-- Chart uses `sample_values` for the y values (5 points)
-- Chart uses `sample_values` for the marker size (5 points)
-- Chart uses `otu_labels` for text values (5 points)
-
-### Metadata and Deployment (30 points)
-
-- Metadata initializes without error (10 points)
-- Metadata updates when a new sample is selected (10 points)
-- App Successfully Deployed to Github Pages (10 points)
+D3.js Documentation
+Plotly.js Documentation
+Bootstrap Documentation
 
 ## Resources
 
