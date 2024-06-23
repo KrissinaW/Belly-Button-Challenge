@@ -80,7 +80,6 @@ Additional resources and tutorials referenced:
 
 - [D3.js Documentation](https://d3js.org/)
 - [Plotly.js Documentation](https://plotly.com/javascript/)
-- [Bootstrap Documentation](https://getbootstrap.com/)
 
 
 
