@@ -49,7 +49,6 @@ Ensure you have Python and Flask installed. If not, install them using pip:
    ```sh
    flask run
 
-The application will start on http://127.0.0.1:5000/.
 
 ### How to Use the Project
 - Select a Test Subject ID: Use the dropdown menu to select a test subject ID number.
