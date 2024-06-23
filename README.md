@@ -72,7 +72,7 @@ The application will start on http://127.0.0.1:5000/.
 
 ## Credits
 
-This project was developed by [Krissina Wells](https://github.com/your-username). Special thanks to:
+This project was developed by [Krissina Wells](https://github.com/KrissinaW). Special thanks to:
 
 - [ChatGPT](https://openai.com/chatgpt) - for providing guidance and support during the development of this project.
 
